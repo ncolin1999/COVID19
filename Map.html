@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_f5d2c0cbcac34ac887c60f2db4bfdd02 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f5d2c0cbcac34ac887c60f2db4bfdd02" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_f5d2c0cbcac34ac887c60f2db4bfdd02 = L.map(
+                                  'map_f5d2c0cbcac34ac887c60f2db4bfdd02',
+                                  {center: [35.000074,104.999927],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d4ec40e15899432a9758051f55198f80 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+        
+    
+
+            var marker_9d4cab6c9eee44cd811f5301fc584c88 = L.marker(
+                [33.7680065,66.2385139],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_15cf6a953338470aa5ac93416d95a052 = L.popup({maxWidth: '300'});
+
+            
+                var html_a60d84b28c71486bb5ad7a7f929ef8dc = $('<div id="html_a60d84b28c71486bb5ad7a7f929ef8dc" style="width: 100.0%; height: 100.0%;"><strong>Afghanistan</strong><br>Affected people : 1</div>')[0];
+                popup_15cf6a953338470aa5ac93416d95a052.setContent(html_a60d84b28c71486bb5ad7a7f929ef8dc);
+            
+
+            marker_9d4cab6c9eee44cd811f5301fc584c88.bindPopup(popup_15cf6a953338470aa5ac93416d95a052);
+
+            
+        
+    
+
+            var marker_4bf67c2bd8a842538689a8aebf917c56 = L.marker(
+                [28.0000272,2.9999825],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_5fe8cceb29ac4d15ba66d2bd51ca7662 = L.popup({maxWidth: '300'});
+
+            
+                var html_764dc17fdb724ac7a1010274db40ff85 = $('<div id="html_764dc17fdb724ac7a1010274db40ff85" style="width: 100.0%; height: 100.0%;"><strong>Algeria</strong><br>Affected people : 1</div>')[0];
+                popup_5fe8cceb29ac4d15ba66d2bd51ca7662.setContent(html_764dc17fdb724ac7a1010274db40ff85);
+            
+
+            marker_4bf67c2bd8a842538689a8aebf917c56.bindPopup(popup_5fe8cceb29ac4d15ba66d2bd51ca7662);
+
+            
+        
+    
+
+            var marker_0713437a280440cc88ce898088d76b2c = L.marker(
+                [-24.7761086,134.755],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_e97cdbd6b5c347c88eaeebf6fb6f885b = L.popup({maxWidth: '300'});
+
+            
+                var html_1245ea6d455c4c0082b784fe16e3a207 = $('<div id="html_1245ea6d455c4c0082b784fe16e3a207" style="width: 100.0%; height: 100.0%;"><strong>Australia</strong><br>Affected people : 15</div>')[0];
+                popup_e97cdbd6b5c347c88eaeebf6fb6f885b.setContent(html_1245ea6d455c4c0082b784fe16e3a207);
+            
+
+            marker_0713437a280440cc88ce898088d76b2c.bindPopup(popup_e97cdbd6b5c347c88eaeebf6fb6f885b);
+
+            
+        
+    
+
+            var marker_562aec1298c0464eb20d95cf63529ea2 = L.marker(
+                [47.2000338,13.199959],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_042fb0c2e2694ab29faed5db88601be1 = L.popup({maxWidth: '300'});
+
+            
+                var html_86aa8d88883b4ba4b1be2802104d7254 = $('<div id="html_86aa8d88883b4ba4b1be2802104d7254" style="width: 100.0%; height: 100.0%;"><strong>Austria</strong><br>Affected people : 2</div>')[0];
+                popup_042fb0c2e2694ab29faed5db88601be1.setContent(html_86aa8d88883b4ba4b1be2802104d7254);
+            
+
+            marker_562aec1298c0464eb20d95cf63529ea2.bindPopup(popup_042fb0c2e2694ab29faed5db88601be1);
+
+            
+        
+    
+
+            var marker_35dce70e420a4294bf42c70d0b09c30a = L.marker(
+                [26.1551249,50.5344606],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_2a83022ce4154e7bb5bd66bd3d5b89fa = L.popup({maxWidth: '300'});
+
+            
+                var html_297185d877f24b218d9ae69341bb27a1 = $('<div id="html_297185d877f24b218d9ae69341bb27a1" style="width: 100.0%; height: 100.0%;"><strong>Bahrain</strong><br>Affected people : 20</div>')[0];
+                popup_2a83022ce4154e7bb5bd66bd3d5b89fa.setContent(html_297185d877f24b218d9ae69341bb27a1);
+            
+
+            marker_35dce70e420a4294bf42c70d0b09c30a.bindPopup(popup_2a83022ce4154e7bb5bd66bd3d5b89fa);
+
+            
+        
+    
+
+            var marker_b70cc2912603427c944b8f5d63930930 = L.marker(
+                [50.6402809,4.6667145],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_2ef6d66bfa364f08b382e134bb65c045 = L.popup({maxWidth: '300'});
+
+            
+                var html_61e47285acec442dacbd2a08ca0c77ba = $('<div id="html_61e47285acec442dacbd2a08ca0c77ba" style="width: 100.0%; height: 100.0%;"><strong>Belgium</strong><br>Affected people : 1</div>')[0];
+                popup_2ef6d66bfa364f08b382e134bb65c045.setContent(html_61e47285acec442dacbd2a08ca0c77ba);
+            
+
+            marker_b70cc2912603427c944b8f5d63930930.bindPopup(popup_2ef6d66bfa364f08b382e134bb65c045);
+
+            
+        
+    
+
+            var marker_07a7d79a9017470e8ec855e730382437 = L.marker(
+                [-10.3333333,-53.2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_f8a1b69ea41f44398ebc93d9bcdb831b = L.popup({maxWidth: '300'});
+
+            
+                var html_1f113f7f5884488cb3fc225b33bd5f6b = $('<div id="html_1f113f7f5884488cb3fc225b33bd5f6b" style="width: 100.0%; height: 100.0%;"><strong>Brazil</strong><br>Affected people : 1</div>')[0];
+                popup_f8a1b69ea41f44398ebc93d9bcdb831b.setContent(html_1f113f7f5884488cb3fc225b33bd5f6b);
+            
+
+            marker_07a7d79a9017470e8ec855e730382437.bindPopup(popup_f8a1b69ea41f44398ebc93d9bcdb831b);
+
+            
+        
+    
+
+            var marker_76b95a336e724c36887ef0a34c7320c5 = L.marker(
+                [13.5066394,104.869423],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_17c978c7e3694777bb809a88b86c2e7a = L.popup({maxWidth: '300'});
+
+            
+                var html_95ce48db81a44e23ad20eb9f3658d9d1 = $('<div id="html_95ce48db81a44e23ad20eb9f3658d9d1" style="width: 100.0%; height: 100.0%;"><strong>Cambodia</strong><br>Affected people : 1</div>')[0];
+                popup_17c978c7e3694777bb809a88b86c2e7a.setContent(html_95ce48db81a44e23ad20eb9f3658d9d1);
+            
+
+            marker_76b95a336e724c36887ef0a34c7320c5.bindPopup(popup_17c978c7e3694777bb809a88b86c2e7a);
+
+            
+        
+    
+
+            var marker_26a4738b2d3747cc94475cdf1a00a309 = L.marker(
+                [61.0666922,-107.9917071],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_b160afe6cde84f248b68f5ab2908d296 = L.popup({maxWidth: '300'});
+
+            
+                var html_bb035aa5c962418a8dbb44728f98a096 = $('<div id="html_bb035aa5c962418a8dbb44728f98a096" style="width: 100.0%; height: 100.0%;"><strong>Canada</strong><br>Affected people : 10</div>')[0];
+                popup_b160afe6cde84f248b68f5ab2908d296.setContent(html_bb035aa5c962418a8dbb44728f98a096);
+            
+
+            marker_26a4738b2d3747cc94475cdf1a00a309.bindPopup(popup_b160afe6cde84f248b68f5ab2908d296);
+
+            
+        
+    
+
+            var marker_325d89ab684c4031a1e716f323ee1e0a = L.marker(
+                [35.000074,104.999927],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_1a67119bcbee4c7182ef5525e741b72b = L.popup({maxWidth: '300'});
+
+            
+                var html_e7e7b3ecafc9434e98013e73324e5246 = $('<div id="html_e7e7b3ecafc9434e98013e73324e5246" style="width: 100.0%; height: 100.0%;"><strong>China</strong><br>Affected people : 10446</div>')[0];
+                popup_1a67119bcbee4c7182ef5525e741b72b.setContent(html_e7e7b3ecafc9434e98013e73324e5246);
+            
+
+            marker_325d89ab684c4031a1e716f323ee1e0a.bindPopup(popup_1a67119bcbee4c7182ef5525e741b72b);
+
+            
+        
+    
+
+            var marker_3537e6b263474a22ac3fb4d0d4e5cb9f = L.marker(
+                [45.5643442,17.0118954],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_85cf18d11cfe4051a78aaf00062d8830 = L.popup({maxWidth: '300'});
+
+            
+                var html_ddc7974ce73e4865b591763a59d5d8d1 = $('<div id="html_ddc7974ce73e4865b591763a59d5d8d1" style="width: 100.0%; height: 100.0%;"><strong>Croatia</strong><br>Affected people : 3</div>')[0];
+                popup_85cf18d11cfe4051a78aaf00062d8830.setContent(html_ddc7974ce73e4865b591763a59d5d8d1);
+            
+
+            marker_3537e6b263474a22ac3fb4d0d4e5cb9f.bindPopup(popup_85cf18d11cfe4051a78aaf00062d8830);
+
+            
+        
+    
+
+            var marker_74280ddf25b943e1956877ba5fc04e52 = L.marker(
+                [-1.3397668,-79.3666965],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_d7dd20b853bd49eda8672d10e91aa1b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_08bc385440404799a2c8376629208e5c = $('<div id="html_08bc385440404799a2c8376629208e5c" style="width: 100.0%; height: 100.0%;"><strong>Ecuador</strong><br>Affected people : 1</div>')[0];
+                popup_d7dd20b853bd49eda8672d10e91aa1b9.setContent(html_08bc385440404799a2c8376629208e5c);
+            
+
+            marker_74280ddf25b943e1956877ba5fc04e52.bindPopup(popup_d7dd20b853bd49eda8672d10e91aa1b9);
+
+            
+        
+    
+
+            var marker_538d7bb219d8442fb40bada32ac07b78 = L.marker(
+                [26.2540493,29.2675469],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_e8c42e972a4c499fa4c7d7e597951bab = L.popup({maxWidth: '300'});
+
+            
+                var html_f709bdd013554a7085bcbc2b3af6c79f = $('<div id="html_f709bdd013554a7085bcbc2b3af6c79f" style="width: 100.0%; height: 100.0%;"><strong>Egypt</strong><br>Affected people : 1</div>')[0];
+                popup_e8c42e972a4c499fa4c7d7e597951bab.setContent(html_f709bdd013554a7085bcbc2b3af6c79f);
+            
+
+            marker_538d7bb219d8442fb40bada32ac07b78.bindPopup(popup_e8c42e972a4c499fa4c7d7e597951bab);
+
+            
+        
+    
+
+            var marker_5f2bcaca170c492db1d68e383747bb99 = L.marker(
+                [58.7523778,25.3319078],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_f06a6fdf26a34f978dbb15155bdddf88 = L.popup({maxWidth: '300'});
+
+            
+                var html_951dd135e34a4e5fb4edba8787828542 = $('<div id="html_951dd135e34a4e5fb4edba8787828542" style="width: 100.0%; height: 100.0%;"><strong>Estonia</strong><br>Affected people : 1</div>')[0];
+                popup_f06a6fdf26a34f978dbb15155bdddf88.setContent(html_951dd135e34a4e5fb4edba8787828542);
+            
+
+            marker_5f2bcaca170c492db1d68e383747bb99.bindPopup(popup_f06a6fdf26a34f978dbb15155bdddf88);
+
+            
+        
+    
+
+            var marker_3ba9bafdafc74911af1a4c08c63bffd4 = L.marker(
+                [63.2467777,25.9209164],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_7cacc192c7f64e25b1b8edc44d727926 = L.popup({maxWidth: '300'});
+
+            
+                var html_1cdb0ab3ed144f60a1fa7ffa3f881024 = $('<div id="html_1cdb0ab3ed144f60a1fa7ffa3f881024" style="width: 100.0%; height: 100.0%;"><strong>Finland</strong><br>Affected people : 2</div>')[0];
+                popup_7cacc192c7f64e25b1b8edc44d727926.setContent(html_1cdb0ab3ed144f60a1fa7ffa3f881024);
+            
+
+            marker_3ba9bafdafc74911af1a4c08c63bffd4.bindPopup(popup_7cacc192c7f64e25b1b8edc44d727926);
+
+            
+        
+    
+
+            var marker_b83cab95d4a740d8be39b748eefa96e1 = L.marker(
+                [46.603354,1.8883335],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_20693c9dbe54483092f83a0339814773 = L.popup({maxWidth: '300'});
+
+            
+                var html_fc5482fbcae0408f9a35211ea9d16298 = $('<div id="html_fc5482fbcae0408f9a35211ea9d16298" style="width: 100.0%; height: 100.0%;"><strong>France</strong><br>Affected people : 19</div>')[0];
+                popup_20693c9dbe54483092f83a0339814773.setContent(html_fc5482fbcae0408f9a35211ea9d16298);
+            
+
+            marker_b83cab95d4a740d8be39b748eefa96e1.bindPopup(popup_20693c9dbe54483092f83a0339814773);
+
+            
+        
+    
+
+            var marker_d18ddf87285e43a48da64918418a8018 = L.marker(
+                [32.3293809,-83.1137366],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_ef5de4e46510401d864915885eba2d02 = L.popup({maxWidth: '300'});
+
+            
+                var html_32c3d06031c641148d269e61f5aba8b3 = $('<div id="html_32c3d06031c641148d269e61f5aba8b3" style="width: 100.0%; height: 100.0%;"><strong>Georgia</strong><br>Affected people : 2</div>')[0];
+                popup_ef5de4e46510401d864915885eba2d02.setContent(html_32c3d06031c641148d269e61f5aba8b3);
+            
+
+            marker_d18ddf87285e43a48da64918418a8018.bindPopup(popup_ef5de4e46510401d864915885eba2d02);
+
+            
+        
+    
+
+            var marker_90283a0114034beaa7fc6ee546e062a9 = L.marker(
+                [51.0834196,10.4234469],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_1f7ff8e5b3df455c9d6ce72ff4e10f37 = L.popup({maxWidth: '300'});
+
+            
+                var html_466b29e9f2074b03932f8a97f8628de9 = $('<div id="html_466b29e9f2074b03932f8a97f8628de9" style="width: 100.0%; height: 100.0%;"><strong>Germany</strong><br>Affected people : 20</div>')[0];
+                popup_1f7ff8e5b3df455c9d6ce72ff4e10f37.setContent(html_466b29e9f2074b03932f8a97f8628de9);
+            
+
+            marker_90283a0114034beaa7fc6ee546e062a9.bindPopup(popup_1f7ff8e5b3df455c9d6ce72ff4e10f37);
+
+            
+        
+    
+
+            var marker_994fede7158d4719ac747d627cc39234 = L.marker(
+                [38.9953683,21.9877132],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_de74ba9bc9ba4c2cb2d701a7375885af = L.popup({maxWidth: '300'});
+
+            
+                var html_1367f303d47a4e2fa5557be4567ce7e0 = $('<div id="html_1367f303d47a4e2fa5557be4567ce7e0" style="width: 100.0%; height: 100.0%;"><strong>Greece</strong><br>Affected people : 1</div>')[0];
+                popup_de74ba9bc9ba4c2cb2d701a7375885af.setContent(html_1367f303d47a4e2fa5557be4567ce7e0);
+            
+
+            marker_994fede7158d4719ac747d627cc39234.bindPopup(popup_de74ba9bc9ba4c2cb2d701a7375885af);
+
+            
+        
+    
+
+            var marker_9efa68de5003444281c06411800bbce6 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_9c8e51b6f7214ef7bb71d73c83ff8a92 = L.popup({maxWidth: '300'});
+
+            
+                var html_1a9b4e85fdb24482b7536dab1a535c2c = $('<div id="html_1a9b4e85fdb24482b7536dab1a535c2c" style="width: 100.0%; height: 100.0%;"><strong>India</strong><br>Affected people : 3</div>')[0];
+                popup_9c8e51b6f7214ef7bb71d73c83ff8a92.setContent(html_1a9b4e85fdb24482b7536dab1a535c2c);
+            
+
+            marker_9efa68de5003444281c06411800bbce6.bindPopup(popup_9c8e51b6f7214ef7bb71d73c83ff8a92);
+
+            
+        
+    
+
+            var marker_e8ab8477caa844b59fd258f6de041572 = L.marker(
+                [32.6475314,54.5643516],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_81b63a4e53944f518dc32010f7a0a09e = L.popup({maxWidth: '300'});
+
+            
+                var html_93577eab56d7411197b1709810238a2a = $('<div id="html_93577eab56d7411197b1709810238a2a" style="width: 100.0%; height: 100.0%;"><strong>Iran</strong><br>Affected people : 28</div>')[0];
+                popup_81b63a4e53944f518dc32010f7a0a09e.setContent(html_93577eab56d7411197b1709810238a2a);
+            
+
+            marker_e8ab8477caa844b59fd258f6de041572.bindPopup(popup_81b63a4e53944f518dc32010f7a0a09e);
+
+            
+        
+    
+
+            var marker_dd7d62df733b470e901fa0a030619a30 = L.marker(
+                [33.0955793,44.1749775],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_85735bf419d74264a885c534eac865a5 = L.popup({maxWidth: '300'});
+
+            
+                var html_c88a8e3243cd4b1ba6dd219e3f4d55ba = $('<div id="html_c88a8e3243cd4b1ba6dd219e3f4d55ba" style="width: 100.0%; height: 100.0%;"><strong>Iraq</strong><br>Affected people : 6</div>')[0];
+                popup_85735bf419d74264a885c534eac865a5.setContent(html_c88a8e3243cd4b1ba6dd219e3f4d55ba);
+            
+
+            marker_dd7d62df733b470e901fa0a030619a30.bindPopup(popup_85735bf419d74264a885c534eac865a5);
+
+            
+        
+    
+
+            var marker_b2441d8ab8804126b671b530edaf60c5 = L.marker(
+                [31.5313113,34.8667654],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_9b701dc892f246cc929b56324de3c304 = L.popup({maxWidth: '300'});
+
+            
+                var html_9da4c0a8ffa14066affe79d858bbcd90 = $('<div id="html_9da4c0a8ffa14066affe79d858bbcd90" style="width: 100.0%; height: 100.0%;"><strong>Israel</strong><br>Affected people : 4</div>')[0];
+                popup_9b701dc892f246cc929b56324de3c304.setContent(html_9da4c0a8ffa14066affe79d858bbcd90);
+            
+
+            marker_b2441d8ab8804126b671b530edaf60c5.bindPopup(popup_9b701dc892f246cc929b56324de3c304);
+
+            
+        
+    
+
+            var marker_4411670230f7416aa3cbe154dd12dd76 = L.marker(
+                [42.6384261,12.674297],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_0c252cbbe2774ed194bf66bac056483b = L.popup({maxWidth: '300'});
+
+            
+                var html_2c6c2d38a23e4d7ea30f029ec1ed899f = $('<div id="html_2c6c2d38a23e4d7ea30f029ec1ed899f" style="width: 100.0%; height: 100.0%;"><strong>Italy</strong><br>Affected people : 588</div>')[0];
+                popup_0c252cbbe2774ed194bf66bac056483b.setContent(html_2c6c2d38a23e4d7ea30f029ec1ed899f);
+            
+
+            marker_4411670230f7416aa3cbe154dd12dd76.bindPopup(popup_0c252cbbe2774ed194bf66bac056483b);
+
+            
+        
+    
+
+            var marker_e049023c02ba4034bd2d03cb9aee22ef = L.marker(
+                [36.5748441,139.2394179],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_bb65b070f26e4a019f8d03023c558b97 = L.popup({maxWidth: '300'});
+
+            
+                var html_16e712df24a4413d9f145466b4dbecf5 = $('<div id="html_16e712df24a4413d9f145466b4dbecf5" style="width: 100.0%; height: 100.0%;"><strong>Japan</strong><br>Affected people : 731</div>')[0];
+                popup_bb65b070f26e4a019f8d03023c558b97.setContent(html_16e712df24a4413d9f145466b4dbecf5);
+            
+
+            marker_e049023c02ba4034bd2d03cb9aee22ef.bindPopup(popup_bb65b070f26e4a019f8d03023c558b97);
+
+            
+        
+    
+
+            var marker_298498807f6b48e1968b7ec6ae4e6152 = L.marker(
+                [29.2733964,47.4979476],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_eca809d13f9846dab8d4dd17fd9531b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_85dce26b4cd04ac1ba13b4cfa6fb99e2 = $('<div id="html_85dce26b4cd04ac1ba13b4cfa6fb99e2" style="width: 100.0%; height: 100.0%;"><strong>Kuwait</strong><br>Affected people : 26</div>')[0];
+                popup_eca809d13f9846dab8d4dd17fd9531b6.setContent(html_85dce26b4cd04ac1ba13b4cfa6fb99e2);
+            
+
+            marker_298498807f6b48e1968b7ec6ae4e6152.bindPopup(popup_eca809d13f9846dab8d4dd17fd9531b6);
+
+            
+        
+    
+
+            var marker_c7b81e2cf6034235be21279fde432c1c = L.marker(
+                [33.8750629,35.843409],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_811a2eb14ecb48b0abf63d9060e68833 = L.popup({maxWidth: '300'});
+
+            
+                var html_b568164eac9c4c65841fc6ccbe568af4 = $('<div id="html_b568164eac9c4c65841fc6ccbe568af4" style="width: 100.0%; height: 100.0%;"><strong>Lebanon</strong><br>Affected people : 3</div>')[0];
+                popup_811a2eb14ecb48b0abf63d9060e68833.setContent(html_b568164eac9c4c65841fc6ccbe568af4);
+            
+
+            marker_c7b81e2cf6034235be21279fde432c1c.bindPopup(popup_811a2eb14ecb48b0abf63d9060e68833);
+
+            
+        
+    
+
+            var marker_784c21a6d7d64d678083e660ce46c037 = L.marker(
+                [55.3500003,23.7499997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_bba689f08ea749539fcd84e404a69b90 = L.popup({maxWidth: '300'});
+
+            
+                var html_b635803420d2444184c46f3b87b62464 = $('<div id="html_b635803420d2444184c46f3b87b62464" style="width: 100.0%; height: 100.0%;"><strong>Lithuania</strong><br>Affected people : 1</div>')[0];
+                popup_bba689f08ea749539fcd84e404a69b90.setContent(html_b635803420d2444184c46f3b87b62464);
+            
+
+            marker_784c21a6d7d64d678083e660ce46c037.bindPopup(popup_bba689f08ea749539fcd84e404a69b90);
+
+            
+        
+    
+
+            var marker_c24dce5e90c24b068b29cca5149dee87 = L.marker(
+                [4.5693754,102.2656823],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_e8bab148cf244da3b3710757f4347d02 = L.popup({maxWidth: '300'});
+
+            
+                var html_06b45ce86030425192e62accaf2e3704 = $('<div id="html_06b45ce86030425192e62accaf2e3704" style="width: 100.0%; height: 100.0%;"><strong>Malaysia</strong><br>Affected people : 17</div>')[0];
+                popup_e8bab148cf244da3b3710757f4347d02.setContent(html_06b45ce86030425192e62accaf2e3704);
+            
+
+            marker_c24dce5e90c24b068b29cca5149dee87.bindPopup(popup_e8bab148cf244da3b3710757f4347d02);
+
+            
+        
+    
+
+            var marker_1413e77809614f83a028ad19ba221ec6 = L.marker(
+                [28.1083929,84.0917139],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_937d892851e548d987e823cf5985bee4 = L.popup({maxWidth: '300'});
+
+            
+                var html_528d8522c8db4c6f888ee8b7ff83ef65 = $('<div id="html_528d8522c8db4c6f888ee8b7ff83ef65" style="width: 100.0%; height: 100.0%;"><strong>Nepal</strong><br>Affected people : 1</div>')[0];
+                popup_937d892851e548d987e823cf5985bee4.setContent(html_528d8522c8db4c6f888ee8b7ff83ef65);
+            
+
+            marker_1413e77809614f83a028ad19ba221ec6.bindPopup(popup_937d892851e548d987e823cf5985bee4);
+
+            
+        
+    
+
+            var marker_ac8e615488e8451bb28f2bb90be06818 = L.marker(
+                [52.5001698,5.7480821],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_6e414304a3554cddab26577237659af9 = L.popup({maxWidth: '300'});
+
+            
+                var html_84059f5080254418a939889709bfe9ef = $('<div id="html_84059f5080254418a939889709bfe9ef" style="width: 100.0%; height: 100.0%;"><strong>Netherlands</strong><br>Affected people : 2</div>')[0];
+                popup_6e414304a3554cddab26577237659af9.setContent(html_84059f5080254418a939889709bfe9ef);
+            
+
+            marker_ac8e615488e8451bb28f2bb90be06818.bindPopup(popup_6e414304a3554cddab26577237659af9);
+
+            
+        
+    
+
+            var marker_20b5eb28fcfb413584f4b95221bf0486 = L.marker(
+                [9.6000359,7.9999721],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_1db93f1b487e4f51962ca719c4a37d05 = L.popup({maxWidth: '300'});
+
+            
+                var html_1e95de0adcef4978922fba0172ad0051 = $('<div id="html_1e95de0adcef4978922fba0172ad0051" style="width: 100.0%; height: 100.0%;"><strong>Nigeria</strong><br>Affected people : 1</div>')[0];
+                popup_1db93f1b487e4f51962ca719c4a37d05.setContent(html_1e95de0adcef4978922fba0172ad0051);
+            
+
+            marker_20b5eb28fcfb413584f4b95221bf0486.bindPopup(popup_1db93f1b487e4f51962ca719c4a37d05);
+
+            
+        
+    
+
+            var marker_7e2aeaa497064e5fa0098c60203ff59b = L.marker(
+                [41.6171214,21.7168387],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_e2baa04db90f46c7a611aa2c508a4d8e = L.popup({maxWidth: '300'});
+
+            
+                var html_3c5875d5d91e4264a3a598c0cb7bb9f0 = $('<div id="html_3c5875d5d91e4264a3a598c0cb7bb9f0" style="width: 100.0%; height: 100.0%;"><strong>North Macedonia</strong><br>Affected people : 1</div>')[0];
+                popup_e2baa04db90f46c7a611aa2c508a4d8e.setContent(html_3c5875d5d91e4264a3a598c0cb7bb9f0);
+            
+
+            marker_7e2aeaa497064e5fa0098c60203ff59b.bindPopup(popup_e2baa04db90f46c7a611aa2c508a4d8e);
+
+            
+        
+    
+
+            var marker_5a64e98207094d7f8125f03fdc007283 = L.marker(
+                [60.5000209,9.0999715],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_f0b12050e2c54e5989bd6f16730d51a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c00857700f34a73b150f47decc73afb = $('<div id="html_2c00857700f34a73b150f47decc73afb" style="width: 100.0%; height: 100.0%;"><strong>Norway</strong><br>Affected people : 4</div>')[0];
+                popup_f0b12050e2c54e5989bd6f16730d51a6.setContent(html_2c00857700f34a73b150f47decc73afb);
+            
+
+            marker_5a64e98207094d7f8125f03fdc007283.bindPopup(popup_f0b12050e2c54e5989bd6f16730d51a6);
+
+            
+        
+    
+
+            var marker_6bba6de1317f493e900a563618508f34 = L.marker(
+                [21.0000287,57.0036901],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_e872bd92df83478cbb78efb7a68c6641 = L.popup({maxWidth: '300'});
+
+            
+                var html_a054fa31fd3d42acbd99429e7882ac80 = $('<div id="html_a054fa31fd3d42acbd99429e7882ac80" style="width: 100.0%; height: 100.0%;"><strong>Oman</strong><br>Affected people : 6</div>')[0];
+                popup_e872bd92df83478cbb78efb7a68c6641.setContent(html_a054fa31fd3d42acbd99429e7882ac80);
+            
+
+            marker_6bba6de1317f493e900a563618508f34.bindPopup(popup_e872bd92df83478cbb78efb7a68c6641);
+
+            
+        
+    
+
+            var marker_524ef9a473ba42c79c1bd727121b057e = L.marker(
+                [30.3308401,71.247499],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_06fa839039f04d98908358e545e5aacf = L.popup({maxWidth: '300'});
+
+            
+                var html_f2d8258eb88f409eb69f0cb487598226 = $('<div id="html_f2d8258eb88f409eb69f0cb487598226" style="width: 100.0%; height: 100.0%;"><strong>Pakistan</strong><br>Affected people : 2</div>')[0];
+                popup_06fa839039f04d98908358e545e5aacf.setContent(html_f2d8258eb88f409eb69f0cb487598226);
+            
+
+            marker_524ef9a473ba42c79c1bd727121b057e.bindPopup(popup_06fa839039f04d98908358e545e5aacf);
+
+            
+        
+    
+
+            var marker_10ef470aed2d4a11bc133cfa962b1d40 = L.marker(
+                [12.7503486,122.7312101],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_d708ea2c3e3749f8b3145fe2fc120b62 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b8a6cd8ef054f20b83c58e6ebe6d558 = $('<div id="html_1b8a6cd8ef054f20b83c58e6ebe6d558" style="width: 100.0%; height: 100.0%;"><strong>Philippines</strong><br>Affected people : 3</div>')[0];
+                popup_d708ea2c3e3749f8b3145fe2fc120b62.setContent(html_1b8a6cd8ef054f20b83c58e6ebe6d558);
+            
+
+            marker_10ef470aed2d4a11bc133cfa962b1d40.bindPopup(popup_d708ea2c3e3749f8b3145fe2fc120b62);
+
+            
+        
+    
+
+            var marker_652bc6de8bf9437bb1bb297ce7c5cdd0 = L.marker(
+                [45.9852129,24.6859225],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_d34dc9d9822340e1a989b70c8c76e881 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd9a58b4c41f40259470a91ffba89b8f = $('<div id="html_dd9a58b4c41f40259470a91ffba89b8f" style="width: 100.0%; height: 100.0%;"><strong>Romania</strong><br>Affected people : 3</div>')[0];
+                popup_d34dc9d9822340e1a989b70c8c76e881.setContent(html_dd9a58b4c41f40259470a91ffba89b8f);
+            
+
+            marker_652bc6de8bf9437bb1bb297ce7c5cdd0.bindPopup(popup_d34dc9d9822340e1a989b70c8c76e881);
+
+            
+        
+    
+
+            var marker_b5f635b2e03649cc97bf2114666f1a90 = L.marker(
+                [64.6863136,97.7453061],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_1bf2416f2e5e48ea9b35388d6ac428cf = L.popup({maxWidth: '300'});
+
+            
+                var html_6e1734ed9df44401aa3978a5fe49e0e2 = $('<div id="html_6e1734ed9df44401aa3978a5fe49e0e2" style="width: 100.0%; height: 100.0%;"><strong>Russia</strong><br>Affected people : 2</div>')[0];
+                popup_1bf2416f2e5e48ea9b35388d6ac428cf.setContent(html_6e1734ed9df44401aa3978a5fe49e0e2);
+            
+
+            marker_b5f635b2e03649cc97bf2114666f1a90.bindPopup(popup_1bf2416f2e5e48ea9b35388d6ac428cf);
+
+            
+        
+    
+
+            var marker_a1976ea9516c4baca4aebe5bdafe724c = L.marker(
+                [43.9458623,12.458306],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_a17b2c3398bb419199b9c0d9828871f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_a4b3e35f6fb7451cbaa1f83c43a255f8 = $('<div id="html_a4b3e35f6fb7451cbaa1f83c43a255f8" style="width: 100.0%; height: 100.0%;"><strong>San Marino</strong><br>Affected people : 1</div>')[0];
+                popup_a17b2c3398bb419199b9c0d9828871f5.setContent(html_a4b3e35f6fb7451cbaa1f83c43a255f8);
+            
+
+            marker_a1976ea9516c4baca4aebe5bdafe724c.bindPopup(popup_a17b2c3398bb419199b9c0d9828871f5);
+
+            
+        
+    
+
+            var marker_bb7cf5b4b4354c78adb24ec88be4c1df = L.marker(
+                [1.357107,103.8194992],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_fdb67a76be2244afbdfb9245cdab0a83 = L.popup({maxWidth: '300'});
+
+            
+                var html_520ce53d8c934eb8b613e562625ebfb2 = $('<div id="html_520ce53d8c934eb8b613e562625ebfb2" style="width: 100.0%; height: 100.0%;"><strong>Singapore</strong><br>Affected people : 91</div>')[0];
+                popup_fdb67a76be2244afbdfb9245cdab0a83.setContent(html_520ce53d8c934eb8b613e562625ebfb2);
+            
+
+            marker_bb7cf5b4b4354c78adb24ec88be4c1df.bindPopup(popup_fdb67a76be2244afbdfb9245cdab0a83);
+
+            
+        
+    
+
+            var marker_4e4c562b3d764c14ba79f9588da4a3f4 = L.marker(
+                [36.638392,127.6961188],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_e1fc7c103fb54f65b56a96ecdc378be0 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a3dbce475df424bb729fc522413b820 = $('<div id="html_3a3dbce475df424bb729fc522413b820" style="width: 100.0%; height: 100.0%;"><strong>South Korea</strong><br>Affected people : 938</div>')[0];
+                popup_e1fc7c103fb54f65b56a96ecdc378be0.setContent(html_3a3dbce475df424bb729fc522413b820);
+            
+
+            marker_4e4c562b3d764c14ba79f9588da4a3f4.bindPopup(popup_e1fc7c103fb54f65b56a96ecdc378be0);
+
+            
+        
+    
+
+            var marker_46f59c279d794759b9af9e247d28fda0 = L.marker(
+                [39.3262345,-4.8380649],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_d0667ef0d6104485a7257ac369d6bf91 = L.popup({maxWidth: '300'});
+
+            
+                var html_c1885c3bf71f421882d36f85944e310f = $('<div id="html_c1885c3bf71f421882d36f85944e310f" style="width: 100.0%; height: 100.0%;"><strong>Spain</strong><br>Affected people : 13</div>')[0];
+                popup_d0667ef0d6104485a7257ac369d6bf91.setContent(html_c1885c3bf71f421882d36f85944e310f);
+            
+
+            marker_46f59c279d794759b9af9e247d28fda0.bindPopup(popup_d0667ef0d6104485a7257ac369d6bf91);
+
+            
+        
+    
+
+            var marker_59b3698c4c0d41de821d6de347110f7b = L.marker(
+                [7.5554942,80.7137847],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_90094e5968e149ff9b0c41ffa72cafb0 = L.popup({maxWidth: '300'});
+
+            
+                var html_c7a3be7776d24f239e2e1c0d95fa661d = $('<div id="html_c7a3be7776d24f239e2e1c0d95fa661d" style="width: 100.0%; height: 100.0%;"><strong>Sri Lanka</strong><br>Affected people : 1</div>')[0];
+                popup_90094e5968e149ff9b0c41ffa72cafb0.setContent(html_c7a3be7776d24f239e2e1c0d95fa661d);
+            
+
+            marker_59b3698c4c0d41de821d6de347110f7b.bindPopup(popup_90094e5968e149ff9b0c41ffa72cafb0);
+
+            
+        
+    
+
+            var marker_711fe07b689e403ba74045bd62ca8d21 = L.marker(
+                [59.6749712,14.5208584],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_032a65a65a644d70be34d22e098e01a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_fa62fe45589a48339767e15aa6395cf7 = $('<div id="html_fa62fe45589a48339767e15aa6395cf7" style="width: 100.0%; height: 100.0%;"><strong>Sweden</strong><br>Affected people : 9</div>')[0];
+                popup_032a65a65a644d70be34d22e098e01a1.setContent(html_fa62fe45589a48339767e15aa6395cf7);
+            
+
+            marker_711fe07b689e403ba74045bd62ca8d21.bindPopup(popup_032a65a65a644d70be34d22e098e01a1);
+
+            
+        
+    
+
+            var marker_cb613b6d502b4c39930982235e4954d2 = L.marker(
+                [46.7985624,8.2319736],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_5a22ed7c75234494843d6f14a20bee5f = L.popup({maxWidth: '300'});
+
+            
+                var html_ac7c4860c7b5400c98e8f3429794137b = $('<div id="html_ac7c4860c7b5400c98e8f3429794137b" style="width: 100.0%; height: 100.0%;"><strong>Switzerland</strong><br>Affected people : 10</div>')[0];
+                popup_5a22ed7c75234494843d6f14a20bee5f.setContent(html_ac7c4860c7b5400c98e8f3429794137b);
+            
+
+            marker_cb613b6d502b4c39930982235e4954d2.bindPopup(popup_5a22ed7c75234494843d6f14a20bee5f);
+
+            
+        
+    
+
+            var marker_d167ac302afe489ba191e46e0ca1f209 = L.marker(
+                [14.8971921,100.83273],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_a125c3c002f74913a8ab1c409d90b8fe = L.popup({maxWidth: '300'});
+
+            
+                var html_f670d30dc32d4ac59d40ad6b15db980d = $('<div id="html_f670d30dc32d4ac59d40ad6b15db980d" style="width: 100.0%; height: 100.0%;"><strong>Thailand</strong><br>Affected people : 40</div>')[0];
+                popup_a125c3c002f74913a8ab1c409d90b8fe.setContent(html_f670d30dc32d4ac59d40ad6b15db980d);
+            
+
+            marker_d167ac302afe489ba191e46e0ca1f209.bindPopup(popup_a125c3c002f74913a8ab1c409d90b8fe);
+
+            
+        
+    
+
+            var marker_c18af49c49bf4abfb12eae2c9100816b = L.marker(
+                [24.0002488,53.9994829],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_4c687e8103db4a1889d59559918f59e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_5784e149ce43450e95bf1ab86b34501f = $('<div id="html_5784e149ce43450e95bf1ab86b34501f" style="width: 100.0%; height: 100.0%;"><strong>United Arab Emirates</strong><br>Affected people : 20</div>')[0];
+                popup_4c687e8103db4a1889d59559918f59e7.setContent(html_5784e149ce43450e95bf1ab86b34501f);
+            
+
+            marker_c18af49c49bf4abfb12eae2c9100816b.bindPopup(popup_4c687e8103db4a1889d59559918f59e7);
+
+            
+        
+    
+
+            var marker_c8d4cccb05214080a074b3acef7b5042 = L.marker(
+                [54.7023545,-3.2765753],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_a81c527732ec4a798930ad13e0158985 = L.popup({maxWidth: '300'});
+
+            
+                var html_e7057480823644d29766603556b0f3ee = $('<div id="html_e7057480823644d29766603556b0f3ee" style="width: 100.0%; height: 100.0%;"><strong>United Kingdom</strong><br>Affected people : 12</div>')[0];
+                popup_a81c527732ec4a798930ad13e0158985.setContent(html_e7057480823644d29766603556b0f3ee);
+            
+
+            marker_c8d4cccb05214080a074b3acef7b5042.bindPopup(popup_a81c527732ec4a798930ad13e0158985);
+
+            
+        
+    
+
+            var marker_07c09417c4d147d09dca8616707264e7 = L.marker(
+                [39.7837304,-100.4458825],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_563795244ef4441fa295ec9d264c5ace = L.popup({maxWidth: '300'});
+
+            
+                var html_4a043359f5dd4c4eb9bb4be36ec1ac6b = $('<div id="html_4a043359f5dd4c4eb9bb4be36ec1ac6b" style="width: 100.0%; height: 100.0%;"><strong>United States</strong><br>Affected people : 17</div>')[0];
+                popup_563795244ef4441fa295ec9d264c5ace.setContent(html_4a043359f5dd4c4eb9bb4be36ec1ac6b);
+            
+
+            marker_07c09417c4d147d09dca8616707264e7.bindPopup(popup_563795244ef4441fa295ec9d264c5ace);
+
+            
+        
+    
+
+            var marker_5ff4bef4e399463f91722d79c26c5cab = L.marker(
+                [13.2904027,108.4265113],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f5d2c0cbcac34ac887c60f2db4bfdd02);
+            
+    
+            var popup_5467bd86e22d466499f332399599ce07 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a892b17489a47c6a445689e4f3ade18 = $('<div id="html_3a892b17489a47c6a445689e4f3ade18" style="width: 100.0%; height: 100.0%;"><strong>Vietnam</strong><br>Affected people : 16</div>')[0];
+                popup_5467bd86e22d466499f332399599ce07.setContent(html_3a892b17489a47c6a445689e4f3ade18);
+            
+
+            marker_5ff4bef4e399463f91722d79c26c5cab.bindPopup(popup_5467bd86e22d466499f332399599ce07);
+
+            
+        
+</script>
